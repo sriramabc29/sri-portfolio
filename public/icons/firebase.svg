@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 351">
+  <defs>
+    <filter id="a" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="17.5"/>
+      <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+    </filter>
+  </defs>
+  <path fill="#FFA000" d="m0 283.054 2.123-2.972L102.527 89.29l.212-2.017L58.48 4.333C54.77-2.094 44.33-.577 43.114 6.533l-43.11 276.521-.004 0z"/>
+  <path fill="#F57C00" d="m135.005 150.38-32.475-60.953L.004 283.054l134.983-132.674h.018z"/>
+  <path fill="#FFCA28" d="M139.121 347.551 255.805 282.9l-31.24-192.293c-1.209-7.134-10.676-9.784-15.43-4.293l-146.083 159.43-58.905 87.516c-3.846 5.73 2.298 13.413 8.796 11.034l126.178-46.743z"/>
+</svg>
+
