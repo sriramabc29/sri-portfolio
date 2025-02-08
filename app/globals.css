@@ -1,0 +1,171 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 0%;
+  --foreground: 0 0% 100%;
+}
+
+body {
+  color: rgb(var(--foreground));
+  background: rgb(var(--background));
+}
+
+/* Add smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom styles for form inputs */
+input,
+textarea {
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Custom styles for 3D perspective */
+.preserve-3d {
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.metallic-gradient {
+  background: linear-gradient(to right, #a7a7a7, #e8e8e8, #ffffff, #e8e8e8, #a7a7a7);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 6s linear infinite;
+}
+
+.text-gradient-blue {
+  background: linear-gradient(to right, #4169e1, #00bfff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes shine {
+  0% {
+    background-position: -100% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.animate-blink {
+  animation: blink 1s step-end infinite;
+}
+
+/* Enhance text rendering */
+.metallic-gradient,
+.text-gradient-blue {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-gradient-to-br {
+  background-size: 200% 200%;
+  animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.metallic-silver {
+  background: linear-gradient(to right, #c0c0c0, #e8e8e8, #ffffff, #e8e8e8, #c0c0c0);
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: shine 5s linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+/* Chromatic aberration animation */
+@keyframes chromaticMove {
+  0% {
+    filter: drop-shadow(-2px 0 0 rgba(255, 0, 0, 0.7)) drop-shadow(2px 0 0 rgba(0, 0, 255, 0.7));
+  }
+  50% {
+    filter: drop-shadow(-3px 0 0 rgba(255, 0, 0, 0.7)) drop-shadow(3px 0 0 rgba(0, 0, 255, 0.7));
+  }
+  100% {
+    filter: drop-shadow(-2px 0 0 rgba(255, 0, 0, 0.7)) drop-shadow(2px 0 0 rgba(0, 0, 255, 0.7));
+  }
+}
+
+.chromatic-text {
+  animation: chromaticMove 4s ease-in-out infinite;
+}
+
+/* Rainbow gradient animation */
+@keyframes gradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.rainbow-gradient {
+  background: linear-gradient(90deg, #ff0000, #ffd700, #0000ff, #ff0000);
+  background-size: 300% 100%;
+  animation: gradientFlow 10s ease infinite;
+}
+
+/* Ensure Spline component takes up full viewport */
+#spline-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+/* Add smooth transition for Spline component */
+#spline-container canvas {
+  transition: opacity 1s ease-in-out;
+}
+
