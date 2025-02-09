@@ -57,3 +57,15 @@ Sri Portfolio is a modern, interactive website showcasing my journey as a Next-G
      ```bash
      node --version
      npm --version
+
+## **Contact**
+For questions, feedback, or collaboration, reach out to me:
+
+- **Email**: [sriramabc30@gmail.com](mailto:sriramabc30@gmail.com)
+- **LinkedIn**: [linkedin.com/in/sriramabc30](https://www.linkedin.com/in/sriramabc30/)
+- **GitHub**: [github.com/sriramabc29](https://github.com/sriramabc29)
+
+---
+
+## **Acknowledgements**
+Thank you!
