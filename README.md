@@ -27,7 +27,6 @@ Sri Portfolio is a modern, interactive website showcasing my journey as a Next-G
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Framer Motion](https://www.framer.com/motion/)
-- [Vercel](https://vercel.com/) (for deployment)
 
 ## 🚀 Getting Started
 
