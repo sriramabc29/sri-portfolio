@@ -6,7 +6,7 @@
 
 Sri Portfolio is a modern, interactive website showcasing my journey as a Next-Gen Full-Stack Developer. Built with cutting-edge technologies, it features a responsive design, engaging animations, and a comprehensive display of my skills, projects, and professional experiences.
 
-🔗 [View Live Demo](https://your-custom-domain.com)
+🔗 [View Live Demo](https://sriportfolio.xyz/)
 
 ## ✨ Features
 
