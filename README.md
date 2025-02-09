@@ -34,12 +34,6 @@ Sri Portfolio is a modern, interactive website showcasing my journey as a Next-G
 - **Image Galleries**: High-quality project screenshots and demos
 - **Tech Stack Display**: Visual representation of technologies used
 
-### Blog Integration
-- **Featured Posts**: Highlighted articles with cover images
-- **Category System**: Organized content structure
-- **Reading Time Estimates**: Estimated read times for articles
-- **Author Information**: Detailed author profiles and credentials
-
 ### Contact & Social
 - **Interactive Contact Form**: Real-time form validation
 - **Social Media Integration**: Direct links to professional profiles
